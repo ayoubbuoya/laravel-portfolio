@@ -3,9 +3,9 @@
         class="fixed w-full z-50 border-gray-200 px-2 sm:px-4 py-2.5 rounded "
         :class="scrollBg ? 'bg-light-primary dark:bg-dark-primary' : 'bg-white dark:bg-gray-900'">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="https://flowbite.com/" class="flex items-center">
-                <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <a href="https://ayoub-amer.netlify.app/" target="u_blank" class="flex items-center">
+                <img src="{{ asset('img/ayoub.jpg') }}" class="h-15 w-8 mr-3 sm:h-9 rounded-2xl" alt="Ayoub Logo" />
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Ayoub Amer</span>
             </a>
             <button x-on:click="mobileNavOpen = !mobileNavOpen" type="button"
                 class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
