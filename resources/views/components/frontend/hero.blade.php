@@ -1,22 +1,22 @@
-<section class="section flex items-center bg-light-primary dark:bg-dark-primary  overflow-hidden ">
+<section id="home" class="section flex items-center bg-light-primary dark:bg-dark-primary  overflow-hidden ">
     <div class="container mx-auto h-full ">
-        <div class="flex flex-col md:flex-row items-center h-full pt-8">
+        <div class="flex flex-col lg:flex-row items-center h-full pt-8">
             <div class="flex-1 flex flex-col items-center lg:items-start">
-                <p class="text-lg text-accent text-md mb-[22px]">Hey, I'm Ayoub! 👋 </p>
+                <p class="text-lg text-accent text-md mb-[22px]">Hey, I'm Ayoub Amer! 👋 </p>
                 <h1
                     class="text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] ">
-                    I Build & Design <br />
-                    Web Interfaces.
+                    I Build Web <br />
+                    Interfaces.
                 </h1>
                 <p class="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left ">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae pariatur voluptates blanditiis
-                    delectus incidunt sunt deserunt nisi modi repellendus quasi aliquid laudantium consectetur, libero
-                    corporis est, assumenda nihil dignissimos reiciendis.
+                    I'm a full-stack developer with a passion for building innovative web applications. My expertise in
+                    HTML, CSS, JavaScript, PostgreSQL, Express.js, React and Node.js has helped me develop solutions that are not only
+                    functional but also aesthetically pleasing
                 </p>
-                <button
-                    class="btn btn-md bg-accent hover:bg-light-secondary hover:text-light-tail-500 dark:hover:bg-dark-secondary dark:hover:text-dark-navy-100 md:btn-lg transition-all">
+                <a href="#contact"
+                    class="btn btn-md cursor-pointer bg-accent hover:bg-light-secondary hover:text-light-tail-500 dark:hover:bg-dark-secondary dark:hover:text-dark-navy-100 md:btn-lg transition-all">
                     Work With me
-                </button>
+                </a>
                 <div class="pt-12">
                     <h5
                         class="text-lg flex justify-center lg:justify-start items-center text-black dark:text-white mb-2">

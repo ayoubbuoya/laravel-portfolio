@@ -1,12 +1,16 @@
 <x-frontend-layout>
-    {{-- Hero Primary --}}
+    {{-- Hero Section --}}
     <x-frontend.hero></x-frontend.hero>
-    {{-- Promote Tail 100 --}}
+    {{-- Promote Section --}}
     <x-frontend.promote></x-frontend.promote>
-    {{-- About Secondary --}}
+    {{-- About Section --}}
     <x-frontend.about></x-frontend.about>
-    {{-- Skills --}}
+    {{-- Skills Section --}}
     <x-frontend.skills :skills="$skills"></x-frontend.skills>
-    {{--  Portfolio  --}}
+    {{--  Portfolio Section --}}
     <x-frontend.portfolio :skills="$skills" :projects="$projects"></x-frontend.portfolio>
+    {{-- Services Section --}}
+    <x-frontend.services />
+    {{-- Contact Section --}}
+    <x-frontend.contact />
 </x-frontend-layout>
