@@ -1,4 +1,4 @@
-<footer class="bg-light-secondary dark:bg-dark-secondary py-2">
+<footer class="bg-light-secondary dark:bg-dark-secondary py-8">
     <div class="container mx-auto">
         <div class="flex flex-col md:flex-row space-y-3 lg:space-y-0 items-center justify-between">
             <a href="https://ayoub-amer.netlify.app/" target="_blank" class="flex space-x-2 items-center justify-center">

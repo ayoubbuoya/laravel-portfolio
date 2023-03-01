@@ -34,7 +34,7 @@
                 </div>
                 <h4 class="text-xl font-medium mb-2">Web Design</h4>
                 <p>
-                    we provide comprehensive web design services to help our clients create a professional and effective
+                    I provide comprehensive web design services to help you create a professional and effective
                     online presence.
                 </p>
             </div>
@@ -49,7 +49,7 @@
                 </div>
                 <h4 class="text-xl font-medium mb-2">Mobile Apps</h4>
                 <p>
-                    we provide comprehensive mobile app development services to help our clients create engaging and
+                    I provide comprehensive mobile app development services to help you create engaging and
                     user-friendly mobile applications.
                 </p>
             </div>
@@ -64,7 +64,7 @@
                 </div>
                 <h4 class="text-xl font-medium mb-2">SEO</h4>
                 <p>
-                    we provide comprehensive SEO services to help our clients increase their online visibility and drive
+                    I provide comprehensive SEO services to help you increase your online visibility and drive
                     more organic traffic to their website.
                 </p>
             </div>

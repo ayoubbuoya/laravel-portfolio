@@ -45,19 +45,35 @@
                     </div>
                 </div>
             </div>
-            <form method="POST" action="/contact" class="space-y-8 w-full max-w-md">
+            <form x-data="form" @submit.prevent="submitForm" class="space-y-8 w-full max-w-md">
+
+                <div x-show="showMessage"
+                    class="p-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+                    role="alert">
+                    <div class="max-w-7xl mx-auto">Thank you for contacting me</div>
+                </div>
+
                 @csrf
-                @method('POST')
 
                 <div class="flex gap-8">
                     <div>
-                        <input class="input" type="text" name="name" placeholder="Your Name">
+                        <input class="input" type="text" name="name" x-model="form.name" placeholder="Your Name">
+                        <template x-if="errors.name">
+                            <span x-text="errors.name[0]" class="text-sm text-red-400"></span>
+                        </template>
                     </div>
                     <div>
-                        <input class="input" type="email" name="email" placeholder="Your Email">
+                        <input class="input" type="email" name="email" x-model="form.email"
+                            placeholder="Your Email">
+                        <template x-if="errors.email">
+                            <span x-text="errors.email[0]" class="text-sm text-red-400"></span>
+                        </template>
                     </div>
                 </div>
-                <textarea class="textarea" placeholder="Your Message" spellcheck="false" name="body"></textarea>
+                <textarea class="textarea" placeholder="Your Message" spellcheck="false" name="body" x-model="form.body"></textarea>
+                <template x-if="errors.body">
+                    <span x-text="errors.body[0]" class="text-sm text-red-400"></span>
+                </template>
                 <button type="submit"
                     class="btn btn-lg bg-accent hover:bg-light-secondary dark:bg-dark-secondary text-black dark:text-white hover:text-light-tail-500 dark:hover:text-dark-navy-100 ">Send
                     Message</button>

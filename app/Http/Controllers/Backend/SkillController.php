@@ -24,6 +24,7 @@ class SkillController extends Controller
         if ($request->hasFile("image")) {
             $image = $request->file("image")->store("skills");
 
+
             Skill::create([
                 "name" => $request->name,
                 "image" => $image
